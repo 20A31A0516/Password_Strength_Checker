@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Password Strength Result</title>
+</head>
+<body>
+    <h1>Password Strength Result</h1>
+    {% if is_password_strong %}
+        <p>Your password is strong!</p>
+    {% else %}
+        <p>Your password is weak. Make it stronger!</p>
+    {% endif %}
+</body>
+</html>
